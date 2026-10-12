@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" >
+  <title>Le Château Perdu</title>
+</head>
+<body>
+  <header>
+    <h1>Le Château Perdu</h1>
+  </header>
+
+  <main>
+    <h2>La serrure magique</h2>
+    <p>Tu poses la main sur la serrure. Une voix grave sort de la pierre : « Je pense à un nombre entre 1 et 20. Trouve-le en 5 essais et je te laisse passer. Sinon... gare à toi ! »</p>
+
+    <h3>Que fais-tu ?</h3>
+    <p>
+      <label for="nombre">Ton nombre :</label>
+      <input type="number" id="nombre" min="1" max="20">
+      <button id="valider">Essayer</button>
+    </p>
+    <p id="message">La pierre attend ta réponse...</p>
+    <p id="essais">Essais restants : 5</p>
+
+    <ul id="suite" hidden>
+      <li><a id="lienSuite"></a></li>
+    </ul>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Retour au début</a> | Livre-jeu de Younes Mokrani</p>
+  </footer>
+
+  <script src="jeu.js"></script>
+</body>
+</html>
