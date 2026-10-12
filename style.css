@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+     background-image: url(back.jpg) ;
+    background-size:100% ;
+    background-repeat: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50%;
+    flex-direction: column;
+    font-size: xx-large;
+}
+h1{
+    color: aliceblue;
+}
+main{
+   margin-left: 15%;
+   margin-right: 15%;
+    color: aliceblue;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 155, 24);
+
+
+}
+main a {
+    text-decoration: none;
+    color: chartreuse;
+}
+main a:hover{
+    color:red;
+}
+footer {
+    color: antiquewhite;
+}
+h2{
+    font-family: fantasy;
+
+}
